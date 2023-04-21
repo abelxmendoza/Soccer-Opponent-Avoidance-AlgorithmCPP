@@ -16,7 +16,11 @@ soccer.
 
 ### Project Report and Empirical Analysis Documentation:
 
-[https://docs.google.com/document/d/14vVzkusOasOfnJFnq09kN0bFep5c1vaDsGij0FVvoCM/edit?usp=sharing]()
+[https://docs.google.com/document/d/e/2PACX-1vT7K3nddQpt7jogK_Qn0aygSog5GzpDzhDuzUmgJ27EufchBTKqyGQhoLFGnC-Bvkht_Gl448feYsIF/pub]()
+
+![1682055592006](image/README/1682055592006.png)
+
+## Requirements
 
 To run the program, you will need a C++ compiler that supports C++11 standard. The recommended compiler is `clang++`.
 
