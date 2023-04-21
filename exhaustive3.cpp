@@ -4,6 +4,9 @@
 
 using namespace std;
 
+// This function uses an exhaustive search to count the number of valid paths from the top-left to the bottom-right
+// of a grid, where the path can only move down or right and cannot pass through obstacles marked with 'X'.
+
 int soccer_avoidance_exhaustive(vector<vector<char> > F) {
     // Determine the dimensions of the grid
     int rows = F.size(), cols = F[0].size();
@@ -51,6 +54,7 @@ int soccer_avoidance_exhaustive(vector<vector<char> > F) {
 }
 
 int main() {
+    // Define the grid and obstacles
     vector<vector<char> > field = {
         {'.', '.', '.', '.', '.', '.', 'X', '.', 'X'},
         {'X', '.', '.', '.', '.', '.', '.', '.', '.'},
@@ -61,9 +65,9 @@ int main() {
         {'.', '.', 'X', '.', '.', '.', '.', 'X', '.'},
         {'.', '.', '.', '.', '.', '.', '.', '.', '.'}
     };
+    // Call the function to count the number of valid paths
     int num_valid_paths = soccer_avoidance_exhaustive(field);
+    // Print the result
     cout << "Number of valid paths: " << num_valid_paths << endl;
     return 0;
 }
-
-
