@@ -18,8 +18,6 @@ soccer.
 
 [https://docs.google.com/document/d/14vVzkusOasOfnJFnq09kN0bFep5c1vaDsGij0FVvoCM/edit?usp=sharing]()
 
-## Requirements
-
 To run the program, you will need a C++ compiler that supports C++11 standard. The recommended compiler is `clang++`.
 
 ## Files
